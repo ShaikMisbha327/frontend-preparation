@@ -1,0 +1,79 @@
+🔹 1. Lists in HTML
+✅ Definition:
+
+Lists are used to display elements in an ordered or unordered way
+
+🔸 Types of Lists
+1. Unordered List (<ul>) – bullet points
+
+Example :
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Reactjs</li>
+</ul>
+
+🎤 Interview:
+
+“Unordered list is used to display items with bullet points.”
+
+2. Ordered List (<ol>) – numbers
+
+Example
+
+<ol>
+    <li>Wake up</li>
+    <li>Study</li>
+    <li>Practice coding</li>
+</ol>
+
+🎤 Interview:
+
+“Ordered list is used to display items in a numbered format.”
+
+3. List Item (<li>)
+
+👉 Used inside <ul> or <ol>
+
+🔹 2. Image Tag (More Practice)
+✅ Definition:
+
+Used to display images on webpage
+
+Example:
+
+<img src="https://via.placeholder.com/200" alt="profile image">
+
+👉 src = image link
+👉 alt = text if image not loads
+
+🔹 3. Line Break (<br>)
+✅ Definition:
+
+Used to break line
+
+Example:
+
+<p>Hello<br>World</p>
+
+
+🎤 Interview Questions (Day 2)
+❓ What is list in HTML?
+
+👉 Lists are used to display items in ordered or unordered form.
+
+❓ Difference between <ul> and <ol>?
+
+👉 <ul> = bullets
+👉 <ol> = numbers
+
+❓ What is <li>?
+
+👉 Used to define list items
+
+❓ What is <br>?
+
+👉 Used to break line
+

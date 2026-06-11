@@ -1,0 +1,112 @@
+🔹 1. What is a Form?
+✅ Definition:
+
+A form is used to collect user input like name, email, password, etc.
+
+🎤 Interview Answer:
+
+“A form is used to collect user data on a webpage.”
+
+🔹 2. <form> Tag
+
+👉 It is the main container for all inputs
+
+Example:
+
+<form>
+    <!-- inputs go here -->
+</form>
+
+🔹 3. Input Tag (<input>)
+✅ Definition:
+
+Used to take input from user
+
+🔸 Common Input Types
+1. Text
+<input type="text" placeholder="Enter name">
+
+2. Email
+<input type="email" placeholder="Enter email">
+
+3. password
+<input type="password" placeholder="Enter password">
+
+4 .Radio button
+<input type="radio" name="gender">Male
+<input type="radio" name="gender"Female
+👉 name should be the same (for selecting one)
+
+5 .Check Box
+<input type="checkbox">HTML
+<input type="checkbox">CSS
+<input type="checkbox">JavaScript
+<input type="checkbox">Reactjs
+<input type="checkbox">Nodejs
+
+6 .Submit button
+<input type="submit" value="Register">
+
+
+🔹 4. Label Tag (<label>)
+✅ Definition:
+
+Used to give name/description to input field
+
+<label>Name:</label>
+<input type="text">
+
+🔹 5. Placeholder Attribute
+
+👉 Shows hint inside input
+
+🔹 4. Label Tag (<label>)
+✅ Definition:
+
+Used to give name/description to input field
+
+<label>Name:</label>
+<input type="text">
+🔹 5. Placeholder Attribute
+
+👉 Shows hint inside input
+
+
+
+
+🎤 Interview Questions (VERY IMPORTANT)
+❓ What is a form?
+
+👉 Used to collect user input
+
+❓ What is input tag?
+
+👉 Used to take user data
+
+❓ Difference between radio & checkbox?
+
+👉 Radio → select one
+👉 Checkbox → select multiple
+
+❓ What is placeholder?
+
+👉 Hint text inside input field
+
+❓ Why label is used?
+
+👉 To describe input field
+
+🎤 Interview Questions (From This Form)
+❓ What is <select>?
+
+👉 Used to create dropdown list
+
+❓ What is <textarea>?
+
+👉 Used for multi-line input
+
+❓ Difference between input and textarea?
+
+👉 Input = single line
+👉 Textarea = multiple lines
+

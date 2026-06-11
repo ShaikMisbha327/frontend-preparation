@@ -1,0 +1,113 @@
+1. HTML (Definition)
+
+HTML (HyperText Markup Language) is used to create the structure of a web page.
+
+👉 Simple: It tells the browser what to display (text, images, links, etc.)
+
+2. HTML Document Structure
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+
+    Content goes here
+
+</body>
+</html>
+
+📌 Points:
+<!DOCTYPE html> → HTML5 version
+<html> → root element
+<head> → page info
+<body> → visible content
+
+
+3. Tag (Definition)
+
+A tag is used to define elements in HTML.
+
+👉 Example:
+
+<p>This is paragraph</p>
+
+🔹 4. Element (Definition)
+
+Everything from opening tag to closing tag is called an element.
+
+👉 Example:
+
+<p>This is element</p>
+
+🔹 5. Attribute (Definition)
+
+An attribute gives extra information to a tag.
+
+👉 Example:
+
+<a href="https://google.com">Google</a>
+
+href is attribute
+
+6. Heading Tag (<h1> to <h6>)
+
+✅ Definition:
+
+Heading tags are used to define titles and headings on a web page.
+
+👉 <h1> is the most important (biggest)
+👉 <h6> is the least important (smallest)
+
+🎤 Interview Answer:
+
+“Heading tags are used to display titles in different sizes from h1 to h6.”
+
+🔹 7. Paragraph Tag (<p>)
+✅ Definition:
+
+The paragraph tag is used to write text content in paragraph form.
+
+🎤 Interview Answer:
+
+“The p tag is used to display text in paragraph format on a webpage.”
+
+🔹 8. Anchor Tag (<a>)
+✅ Definition:
+
+The anchor tag is used to create links to other pages or websites.
+
+Example:
+<a href="https://google.com">Visit Google</a>
+🎤 Interview Answer:
+
+“The anchor tag is used to create hyperlinks using the href attribute.”
+
+🔹 9. Image Tag (<img>)
+✅ Definition:
+
+The image tag is used to display images on a webpage.
+
+Example:
+<img src="image.jpg" alt="image">
+
+👉 src → image path
+👉 alt → alternative text
+
+🎤 Interview Answer:
+
+“The img tag is used to display images using src and alt attributes.”
+
+🔹 10. Button Tag (<button>)
+✅ Definition:
+
+The button tag is used to create a clickable button on a webpage.
+
+Example:
+<button>Click Me</button>
+🎤 Interview Answer:
+
+“The button tag is used to create clickable buttons for user actions.”
+
+

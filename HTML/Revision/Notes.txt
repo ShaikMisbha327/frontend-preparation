@@ -1,0 +1,376 @@
+📘 HTML Complete Notes (Day 1–Day 5)
+🔹 DAY 1 – HTML Basics
+❓ What is HTML?
+
+👉 HTML (HyperText Markup Language) is used to create the structure of a web page.
+
+👉 Simple: It tells the browser what to display (text, images, links, etc.)
+
+❓ What is an HTML Document Structure?
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+
+    Content goes here
+
+</body>
+</html>
+📌 Points
+<!DOCTYPE html> → HTML5 version
+<html> → root element
+<head> → page information
+<body> → visible content
+❓ What is a Tag?
+
+👉 A tag is used to define elements in HTML.
+
+Example
+<p>This is paragraph</p>
+❓ What is an Element?
+
+👉 Everything from opening tag to closing tag is called an element.
+
+Example
+<p>This is element</p>
+❓ What is an Attribute?
+
+👉 An attribute gives extra information to a tag.
+
+Example
+<a href="https://google.com">Google</a>
+
+👉 href is an attribute.
+
+❓ What are Heading Tags?
+
+👉 Heading tags are used to define titles and headings on a web page.
+
+👉 <h1> is the most important (biggest)
+
+👉 <h6> is the least important (smallest)
+
+Example
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+🎤 Interview Answer
+
+👉 "Heading tags are used to display titles in different sizes from h1 to h6."
+
+❓ What is a Paragraph Tag?
+
+👉 The paragraph tag is used to write text content in paragraph form.
+
+Example
+<p>This is a paragraph</p>
+🎤 Interview Answer
+
+👉 "The p tag is used to display text in paragraph format on a webpage."
+
+❓ What is an Anchor Tag?
+
+👉 The anchor tag is used to create links to other pages or websites.
+
+Example
+<a href="https://google.com">Visit Google</a>
+🎤 Interview Answer
+
+👉 "The anchor tag is used to create hyperlinks using the href attribute."
+
+❓ What is an Image Tag?
+
+👉 The image tag is used to display images on a webpage.
+
+Example
+<img src="image.jpg" alt="image">
+
+👉 src → image path
+
+👉 alt → alternative text
+
+🎤 Interview Answer
+
+👉 "The img tag is used to display images using src and alt attributes."
+
+❓ What is a Button Tag?
+
+👉 The button tag is used to create a clickable button on a webpage.
+
+Example
+<button>Click Me</button>
+🎤 Interview Answer
+
+👉 "The button tag is used to create clickable buttons for user actions."
+
+🔹 DAY 2 – Lists & Images
+❓ What are Lists in HTML?
+
+👉 Lists are used to display elements in an ordered or unordered way.
+
+❓ What is an Unordered List?
+
+👉 Unordered list is used to display items with bullet points.
+
+Example
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>ReactJS</li>
+</ul>
+🎤 Interview Answer
+
+👉 "Unordered list is used to display items with bullet points."
+
+❓ What is an Ordered List?
+
+👉 Ordered list is used to display items in a numbered format.
+
+Example
+<ol>
+    <li>Wake Up</li>
+    <li>Study</li>
+    <li>Practice Coding</li>
+</ol>
+🎤 Interview Answer
+
+👉 "Ordered list is used to display items in a numbered format."
+
+❓ What is an li Tag?
+
+👉 The li tag is used to define list items.
+
+Example
+<li>HTML</li>
+🎤 Interview Answer
+
+👉 "The li tag is used to define list items."
+
+❓ What is an Image Tag?
+
+👉 Used to display images on a webpage.
+
+Example
+<img src="https://via.placeholder.com/200" alt="profile image">
+
+👉 src = image link
+
+👉 alt = text if image does not load
+
+❓ What is a br Tag?
+
+👉 The br tag is used to break a line.
+
+Example
+<p>Hello<br>World</p>
+🎤 Interview Answer
+
+👉 "The br tag is used to break a line."
+
+🔹 DAY 3 – Forms
+❓ What is a Form?
+
+👉 A form is used to collect user input like name, email, password, etc.
+
+🎤 Interview Answer
+
+👉 "A form is used to collect user data on a webpage."
+
+❓ What is a form Tag?
+
+👉 It is the main container for all inputs.
+
+Example
+<form>
+    <!-- inputs go here -->
+</form>
+❓ What is an Input Tag?
+
+👉 Used to take input from the user.
+
+Example
+<input type="text">
+🎤 Interview Answer
+
+👉 "The input tag is used to take user input."
+
+❓ What is a Label Tag?
+
+👉 Used to give name/description to an input field.
+
+Example
+<label>Name:</label>
+<input type="text">
+🎤 Interview Answer
+
+👉 "The label tag is used to describe an input field."
+
+❓ What is Placeholder?
+
+👉 Shows hint inside input.
+
+Example
+<input type="text" placeholder="Enter Name">
+🎤 Interview Answer
+
+👉 "Placeholder is a hint text displayed inside an input field."
+
+❓ What is a Radio Button?
+
+👉 Radio button is used when the user can select only one option.
+
+Example
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+🎤 Interview Answer
+
+👉 "Radio button is used when the user can select only one option."
+
+❓ What is a Checkbox?
+
+👉 Checkbox is used when the user can select multiple options.
+
+Example
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+🎤 Interview Answer
+
+👉 "Checkbox is used when the user can select multiple options."
+
+❓ What is Textarea?
+
+👉 Textarea is used to take multi-line input from users.
+
+Example
+<textarea></textarea>
+🎤 Interview Answer
+
+👉 "Textarea is used to take multi-line input from users."
+
+❓ What is a Select Tag?
+
+👉 Select tag is used to create a dropdown list.
+
+Example
+<select>
+    <option>HTML</option>
+    <option>CSS</option>
+</select>
+🎤 Interview Answer
+
+👉 "Select tag is used to create a dropdown list."
+
+🔹 DAY 4 – Tables & Semantic Tags
+❓ What is a Table?
+
+👉 A table is used to display data in rows and columns in a structured format.
+
+🎤 Interview Answer
+
+👉 "A table is used to organize data in rows and columns on a webpage."
+
+❓ What is a table Tag?
+
+👉 The table tag is used as the main container to create a table in HTML.
+
+❓ What is a tr Tag?
+
+👉 The tr tag is used to define a row inside a table.
+
+❓ What is a th Tag?
+
+👉 The th tag is used to define header cells in a table, usually displayed in bold.
+
+❓ What is a td Tag?
+
+👉 The td tag is used to define normal data cells inside a table.
+
+Example
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Skill</th>
+    </tr>
+    <tr>
+        <td>Misbha</td>
+        <td>HTML</td>
+    </tr>
+</table>
+❓ What are Semantic Tags?
+
+👉 Semantic tags give meaning to the structure of a webpage.
+
+OR
+
+👉 Semantic tags are HTML tags that describe the purpose of the content they contain, making the webpage structure easier to understand.
+
+❓ What is a header Tag?
+
+👉 The header tag is used to define the top section of a webpage, usually containing logo or title.
+
+❓ What is a nav Tag?
+
+👉 The nav tag is used to create navigation links like menu or navbar.
+
+❓ What is a section Tag?
+
+👉 The section tag is used to group related content into a section.
+
+❓ What is an article Tag?
+
+👉 The article tag is used for independent content like blog posts or news.
+
+❓ What is a footer Tag?
+
+👉 The footer tag is used to define the bottom section of a webpage, usually containing copyright or contact information.
+
+❓ Why Use Semantic Tags?
+
+👉 Semantic tags improve code readability and help search engines understand the structure of the webpage.
+
+🔹 DAY 5 – Revision
+❓ What are Block Elements?
+
+👉 Block elements take full width and start on a new line.
+
+Examples
+<h1>Heading</h1>
+<p>Paragraph</p>
+<div>Content</div>
+❓ What are Inline Elements?
+
+👉 Inline elements take only the required width and stay on the same line.
+
+Examples
+<a href="#">Link</a>
+<span>Text</span>
+❓ Difference Between Block and Inline Elements?
+
+👉 Block elements take full width and start on a new line, while inline elements take only the required width and stay in the same line.
+
+Block Elements	Inline Elements
+Start on a new line	Stay on same line
+Take full width	Take required width only
+p, h1, div	a, span
+❓ Name Some Semantic Tags
+
+👉 header, nav, section, article, footer.
+
+❓ Why are Semantic Tags Important?
+
+👉 They improve code readability and help search engines understand the webpage structure.
+
+❓ What is a Portfolio Website?
+
+👉 A portfolio website is used to showcase personal information, skills, projects, and contact details.
+
+Common Sections of a Portfolio
+Header
+Navigation
+About Me
+Skills
+Projects
+Contact Form
+Footer

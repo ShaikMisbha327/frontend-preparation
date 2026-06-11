@@ -1,0 +1,92 @@
+1. Semantic Tags
+
+Definition:Semantic tags are HTML tags that give meaning to the structure of a webpage.
+ or
+Semantic tags are HTML tags that describe the purpose of the content they contain, making the webpage structure easier to understand."
+
+Common Semantic Tags:
+<header>
+Used to define the top section of a webpage.
+Usually contains logo, title, or introduction.
+<nav>
+Used to create navigation links or menus.
+<section>
+Used to group related content together.
+<article>
+Used for independent content such as blogs, news articles, or posts.
+<footer>
+Used to define the bottom section of a webpage.
+Usually contains copyright, contact details, or links.
+
+
+🧠 Memory Trick
+
+Think:
+
+<header>  → Top part
+<nav>     → Navigation menu
+<section> → Content section
+<article> → Independent content
+<footer>  → Bottom part
+
+
+
+
+
+
+🔹 INLINE vs BLOCK ELEMENTS
+
+✅ Block Elements
+Definition:
+
+Block elements take full width and start on a new line
+
+Examples:
+
+<div>, <p>, <h1>
+
+<p>This is paragraph</p>
+<p>This is another paragraph</p>
+
+
+✅ Inline Elements
+Definition:
+
+Inline elements take only required width and stay in same line
+
+Examples:
+
+<span>, <a>
+
+<a href="#">Link1</a>
+<a href="#">Link2</a>
+
+🎤 Interview Answer:
+
+“Block elements take full width and start on a new line, while inline elements take only required width and stay in the same line.”
+
+4. Difference Between Block and Inline Elements
+Block Elements	       Inline Elements
+Start on a new line	   Stay on same line
+Take full width	       Take required width only
+Example: p, h1, div    Example: a, span
+
+
+
+
+🎤 Important Interview Questions for Day 5
+What are semantic tags?
+
+👉 Semantic tags give meaning to the structure of a webpage.
+
+Name some semantic tags.
+
+👉 header, nav, section, article, footer.
+
+What is the difference between block and inline elements?
+
+👉 Block elements start on a new line and take full width, while inline elements stay on the same line and take only the required width.
+
+Why are semantic tags important?
+
+👉 They improve code readability and help search engines understand the webpage structure.

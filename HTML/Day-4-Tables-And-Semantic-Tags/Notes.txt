@@ -1,0 +1,116 @@
+🚀 DAY 4 – Tables + Semantic Tags
+🔹 1. What is a Table?
+✅ Definition:
+
+A table is used to display data in rows and columns.
+
+🎤 Interview Answer:
+
+“A table is used to organize data in rows and columns on a webpage.”
+
+🔹 2. Table Tags
+🔸 <table>
+👉 Main container
+Definition: “The table tag is used as the main container to create a table in HTML.”
+
+🔸 <tr> (Table Row)
+👉 Creates a row
+Definition:“The tr tag is used to define a row inside a table.”
+
+🔸 <th> (Table Heading)
+👉 Header cell (bold)
+Definition:"The th tag is used to define header cells in a table, usually displayed in bold.”
+
+🔸 <td> (Table Data)
+👉 Normal cell
+Definition:“The td tag is used to define normal data cells inside a table."
+
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Skill</th>
+    </tr>
+    <tr>
+        <td>Misbha</td>
+        <td>HTML</td>
+    </tr>
+    <tr>
+        <td>Shaik</td>
+        <td>CSS</td>
+    </tr>
+</table>
+
+🧠 Quick Memory Trick
+
+👉 table = full table
+👉 tr = row
+👉 th = heading
+👉 td = data
+
+
+🔹 3. Semantic Tags (VERY IMPORTANT FOR INTERVIEW)
+✅ Definition:
+
+Semantic tags give meaning to HTML structure (not just design)
+
+🔸 Important Semantic Tags
+<header> 
+👉 Top section (logo, title)
+Definition:“The header tag is used to define the top section of a webpage, usually containing logo or title.”
+
+<nav>
+👉 Navigation links
+Definition:“The nav tag is used to create navigation links like menu or navbar.”
+
+<section>
+👉 Main content area
+Definition:“The section tag is used to group related content into a section.”
+
+<article>
+👉 Independent content
+Definition:“The article tag is used for independent content like blog posts or news.”
+
+<footer>
+👉 Bottom section
+Definition:The footer tag is used to define the bottom section of a webpage, usually containing copyright or contact information.”
+
+
+💡 If Interviewer Asks “Why use semantic tags?”
+
+👉 Best Answer:
+“Semantic tags improve code readability and help search engines understand the structure of the webpage.”
+
+🧠 Smart Trick
+
+If you forget:
+👉 Think like this:
+
+header → top
+nav → menu
+section → content
+article → independent content
+footer → bottom
+
+
+🎤 Day 4 – One Line Interview Answers
+🔹 What is a table?
+
+👉 “A table is used to display data in rows and columns in a structured format.”
+
+🔹 Difference between <th> and <td>?
+
+👉 “<th> is used for table headings (bold), while <td> is used for normal table data.”
+
+🔹 What are semantic tags?
+
+👉 “Semantic tags are HTML tags that give meaning to the structure of a webpage.”
+
+🔹 Examples of semantic tags?
+
+👉 “Examples of semantic tags include header, nav, section, article, and footer.”
+
+💡 Bonus (If interviewer asks extra)
+
+👉 “Why use tables?”
+👉 “Tables are used when we need to show structured data like student records or reports.”
