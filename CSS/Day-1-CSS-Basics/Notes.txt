@@ -1,0 +1,155 @@
+🎨 CSS Day 1 – Introduction to CSS
+🔹 1. What is CSS?
+✅ Definition:
+
+CSS (Cascading Style Sheets) is used to style and design web pages.
+
+👉 It controls colors, fonts, spacing, layouts, and overall appearance of a website.
+
+🎤 Interview Answer:
+
+"CSS is used to style and design web pages by controlling the appearance of HTML elements."
+
+🔹 2. Why Do We Use CSS?
+✅ Definition:
+
+CSS is used to make websites attractive and user-friendly.
+
+Without CSS:
+<h1>Hello World</h1>
+
+Only plain text appears.
+
+With CSS:
+<h1 style="color: blue;">Hello World</h1>
+
+Text becomes blue.
+
+🔹 3. CSS Syntax
+✅ Definition:
+
+CSS syntax consists of:
+
+Selector
+Property
+Value
+Example:
+h1 {
+    color: blue;
+}
+Breakdown:
+h1
+
+👉 Selector
+
+color
+
+👉 Property
+
+blue
+
+👉 Value
+
+🎤 Interview Answer:
+
+"CSS syntax consists of selector, property, and value."
+
+🔹 4. What is a Selector?
+✅ Definition:
+
+A selector is used to select HTML elements for styling.
+
+Example:
+h1 {
+    color: red;
+}
+
+Here:
+
+h1
+
+is the selector.
+
+🎤 Interview Answer:
+
+"A selector is used to target HTML elements and apply CSS styles to them."
+
+🔹 5. Types of CSS
+
+There are 3 types of CSS.
+
+1️⃣ Inline CSS
+✅ Definition:
+
+Inline CSS is written directly inside an HTML tag using the style attribute.
+
+Example:
+<h1 style="color:red;">Hello</h1>
+🎤 Interview Answer:
+
+"Inline CSS is applied directly inside an HTML element using the style attribute."
+
+2️⃣ Internal CSS
+✅ Definition:
+
+Internal CSS is written inside the <style> tag within the <head> section.
+
+Example:
+<head>
+    <style>
+        h1{
+            color:blue;
+        }
+    </style>
+</head>
+🎤 Interview Answer:
+
+"Internal CSS is written inside the style tag in the head section of an HTML document."
+
+3️⃣ External CSS
+✅ Definition:
+
+External CSS is written in a separate .css file and linked to the HTML file.
+
+Example:
+index.html
+<link rel="stylesheet" href="style.css">
+style.css
+h1{
+    color:green;
+}
+🎤 Interview Answer:
+
+"External CSS is written in a separate CSS file and linked to an HTML document."
+
+🧠 Quick Memory Trick
+Inline CSS   → Inside HTML Tag
+
+Internal CSS → Inside <style> Tag
+
+External CSS → Separate CSS File
+
+🎤 Day 1 Interview Questions
+❓ What is CSS?
+
+👉 CSS is used to style and design web pages.
+
+❓ What does CSS stand for?
+
+👉 Cascading Style Sheets.
+
+❓ Why is CSS used?
+
+👉 CSS is used to improve the appearance and layout of web pages.
+
+❓ What is a selector?
+
+👉 A selector is used to target HTML elements for styling.
+
+❓ What are the types of CSS?
+
+👉 Inline CSS, Internal CSS, and External CSS.
+
+❓ Which CSS type is most recommended?
+
+👉 External CSS because it keeps code organized and reusable.

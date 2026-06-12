@@ -1,0 +1,8 @@
+1. What is CSS?
+2. Why CSS?
+3. CSS Syntax
+4. Selector
+5. Inline CSS
+6. Internal CSS
+7. External CSS
+8. Interview Questions
