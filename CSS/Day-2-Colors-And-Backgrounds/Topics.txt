@@ -1,0 +1,5 @@
+1. color
+2. background-color
+3. background-image
+4. opacity
+5. Interview Questions

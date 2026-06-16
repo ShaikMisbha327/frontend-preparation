@@ -1,0 +1,89 @@
+🔹 1. color Property
+Definition
+
+The color property is used to change the text color.
+
+Example
+h1{
+    color: blue;
+}
+
+Interview Answer
+
+"The color property is used to change the text color of an element."
+
+🔹 2. background-color Property
+Definition
+
+The background-color property is used to change the background color of an element.
+
+Example
+section{
+    background-color: lightblue;
+}
+Interview Answer
+
+"The background-color property is used to set the background color of an element."
+
+🔹 3. background-image Property
+Definition
+
+The background-image property is used to add an image as the background.
+
+Example
+body{
+    background-image: url("background.jpg");
+}
+Interview Answer
+
+"The background-image property is used to display an image in the background of an element."
+
+🔹 4. opacity Property
+Definition
+
+The opacity property controls the transparency of an element.
+
+Values
+1   → Fully visible
+0.5 → Half visible
+0   → Invisible
+Example
+.card{
+    opacity: 0.8;
+}
+Interview Answer
+
+"Opacity is used to control the transparency level of an element."
+
+🧠 Memory Trick
+color             → Text Color
+background-color  → Background Color
+background-image  → Background Image
+opacity           → Transparency
+
+Interview Questions
+
+Q1. What is the color property?
+
+Answer:
+The color property is used to change the text color of an element.
+
+Q2. What is background-color?
+
+Answer:
+The background-color property is used to set the background color of an element.
+
+Q3. What is background-image?
+
+Answer:
+The background-image property is used to display an image in the background of an element.
+
+Q4. What is opacity?
+
+Answer:
+Opacity controls the transparency level of an element.
+
+Q5. What is the opacity value range?
+
+Answer:
+Opacity values range from 0 to 1.
