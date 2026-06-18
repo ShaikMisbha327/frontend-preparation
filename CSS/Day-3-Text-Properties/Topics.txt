@@ -1,0 +1,8 @@
+Day-3 Text-Properties
+
+1. text-align
+2. text-decoration
+3. text-transform
+4. line-height
+5. letter-spacing
+6. Interview Questions

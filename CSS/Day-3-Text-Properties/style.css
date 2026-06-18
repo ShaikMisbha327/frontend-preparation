@@ -1,0 +1,75 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.hero{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding:40px;
+}
+
+.hero h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+.about,
+.contact,
+.skills{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    
+}
+.about h2{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about p{
+    line-height: 1.8;
+}
+
+.skills h2{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.projects{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.projects h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.projects p{
+    line-height: 2;
+}
+
+
+.contact{
+    text-align: center;
+
+}
+.contact h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact a{
+    text-decoration: none;
+    color: blue;
+}
+

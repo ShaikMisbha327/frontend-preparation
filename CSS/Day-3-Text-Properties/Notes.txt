@@ -1,0 +1,103 @@
+🔹 1. text-align
+Definition
+
+The text-align property is used to align text horizontally.
+
+Values
+left
+center
+right
+Example
+h1{
+    text-align: center;
+}
+Interview Answer
+
+"The text-align property is used to align text horizontally within an element."
+
+🔹 2. text-decoration
+Definition
+
+The text-decoration property is used to add or remove decorations from text.
+
+Example
+a{
+    text-decoration: none;
+}
+
+Without it, links have an underline.
+
+Interview Answer
+
+"The text-decoration property is used to add or remove text decorations such as underlines."
+
+🔹 3. text-transform
+Definition
+
+The text-transform property changes the capitalization of text.
+
+Values
+uppercase
+lowercase
+capitalize
+Example
+h2{
+    text-transform: uppercase;
+}
+Interview Answer
+
+"The text-transform property controls the capitalization of text."
+
+🔹 4. line-height
+Definition
+
+The line-height property controls the space between lines of text.
+
+Example
+p{
+    line-height: 1.8;
+}
+Interview Answer
+
+"The line-height property is used to control the spacing between lines of text."
+
+🔹 5. letter-spacing
+Definition
+
+The letter-spacing property controls the space between characters.
+
+Example
+h1{
+    letter-spacing: 2px;
+}
+Interview Answer
+
+"The letter-spacing property is used to control the space between letters."
+
+🧠 Memory Trick
+text-align      → Align text
+text-decoration → Underline/remove underline
+text-transform  → Uppercase/lowercase
+line-height     → Space between lines
+letter-spacing  → Space between letters
+
+🎤 Interview Questions
+What is text-align?
+
+👉 The text-align property is used to align text horizontally.
+
+What is text-decoration?
+
+👉 The text-decoration property is used to add or remove text decorations.
+
+What is text-transform?
+
+👉 The text-transform property changes the capitalization of text.
+
+What is line-height?
+
+👉 The line-height property controls spacing between lines.
+
+What is letter-spacing?
+
+👉 The letter-spacing property controls spacing between letters.

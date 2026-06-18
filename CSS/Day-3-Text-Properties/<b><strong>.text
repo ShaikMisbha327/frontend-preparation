@@ -1,0 +1,15 @@
+
+
+### *Interviewer Answer for `<b>` vs `<strong>`*
+
+*"Both `<b>` and `<strong>` make text bold visually, but there’s a semantic difference:*
+
+1. *`<b>` tag*: Used for stylistic bolding only. It has no semantic meaning. Use it when you just want to highlight text visually, like product names or keywords. Screen readers read it normally.
+
+2. *`<strong>` tag*: Used to indicate strong importance. It has semantic meaning. Screen readers give it verbal emphasis, and search engines give it slight SEO weight. Use it for warnings, alerts, or important content.
+
+*Rule:* If the text is important for meaning, use `<strong>`. If it’s just for visual styling, use `<b>`. For accessibility and SEO best practices, I prefer `<strong>` for important content."**
+
+### *Bonus line if they ask follow-up:*
+"`<b>` = presentational, `<strong>` = semantic. HTML5 focuses on semantic tags, so `<strong>` is preferred."
+
