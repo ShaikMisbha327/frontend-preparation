@@ -1,0 +1,114 @@
+Understanding px, em, and rem is very important for frontend interviews and real projects.
+
+🔹 1. px (Pixels)
+
+px is a fixed unit.
+
+Example:
+
+h1{
+    font-size: 32px;
+}
+
+Meaning:
+
+👉 Text size will always be 32 pixels.
+
+Easy Way to Remember
+px = fixed size
+
+No matter what happens, the size stays the same.
+
+🔹 2. em
+
+em is relative to the parent element's font size.
+
+Example:
+
+body{
+    font-size: 20px;
+}
+
+div{
+    font-size: 2em;
+}
+
+Calculation:
+
+2em = 2 × 20px
+     = 40px
+
+So the div text becomes 40px.
+
+Important
+
+em depends on its parent.
+
+That's why nested elements can sometimes become unexpectedly large.
+
+🔹 3. rem
+
+rem stands for:
+
+Root EM
+
+It is relative to the root element (html).
+
+Example:
+
+html{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+Calculation:
+
+2rem = 2 × 16px
+      = 32px
+
+So the h1 becomes 32px.
+
+Important
+
+rem always uses the root (html) font size.
+
+It does NOT depend on parent elements.
+
+
+
+🧠 Quick Comparison
+html{
+    font-size: 16px;
+}
+
+.parent{
+    font-size: 20px;
+}
+
+.child{
+    font-size: 2em;
+}
+
+Result:
+
+2em = 40px
+
+because parent is 20px.
+
+
+html{
+    font-size: 16px;
+}
+
+.child{
+    font-size: 2rem;
+}
+
+Result:
+
+2rem = 32px
+
+because root is 16px.

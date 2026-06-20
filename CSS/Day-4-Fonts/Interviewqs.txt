@@ -1,0 +1,178 @@
+1. Difference Between font-style and font-weight
+
+
+font-style
+p{
+    font-style: italic;
+}
+
+👉 Makes text italic.
+
+font-weight
+p{
+    font-weight: bold;
+}
+
+👉 Makes text bold.
+
+Interview Answer
+
+font-style controls italic text, while font-weight controls the thickness (boldness) of text.
+
+2. Why do we write multiple fonts?
+
+Example:
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+3.Tricky Question
+
+3.Why not write only Arial?
+
+Answer
+
+If Arial is not available on the user's device, the browser tries Helvetica.
+
+If Helvetica is also unavailable, it uses a generic sans-serif font.
+
+This is called a font fallback.
+
+4. Is font-weight: bold same as font-weight: 700?
+Answer
+
+Usually yes.
+
+font-weight: bold;
+
+≈
+
+font-weight: 700;
+
+Both produce bold text in most fonts.
+
+5. Which property changes text size?
+
+
+❌ font-family
+
+Correct answer:
+
+✅ font-size
+
+Example:
+
+h1{
+    font-size: 40px;
+}
+6. Which property changes font type?
+
+Correct answer:
+
+✅ font-family
+
+Example:
+
+font-family: Arial;
+
+7. Which property makes text italic?
+
+Correct answer:
+
+✅ font-style
+
+Example:
+
+font-style: italic;
+
+8. Which property makes text bold?
+
+Correct answer:
+
+✅ font-weight
+
+Example:
+
+font-weight: bold;
+
+9. What happens if you write:
+font-size: -20px;
+Answer
+
+Invalid value.
+
+Font size cannot be negative.
+
+10. Which is better?
+font-weight: bold;
+
+OR
+
+font-weight: 700;
+Answer
+
+Both are valid.
+
+Developers often use numbers because they provide more control:
+
+100
+200
+300
+400
+500
+600
+700
+800
+900
+
+11.What is the difference between font-style and font-weight?
+
+👉 font-style makes text italic, while font-weight controls the thickness (boldness) of text.
+
+12.What is the difference between px, em, and rem?"
+
+👉 px is fixed, em depends on the parent element, and rem depends on the root (html) element.
+
+px  → Fixed size
+
+em  → Parent size
+
+rem → Root(html) size
+
+
+🎤 Interview Rapid Fire
+What does font-family do?
+
+👉 Specifies the font of text.
+
+What does font-size do?
+
+👉 Changes text size.
+
+What does font-weight do?
+
+👉 Controls text thickness.
+
+What does font-style do?
+
+👉 Makes text italic or normal.
+
+Why use multiple fonts in font-family?
+
+👉 To provide fallback fonts if the first font is unavailable.
+
+Is bold equal to 700?
+
+👉 Yes, in most cases.
+
+🔥 Most Important Day 4 Question
+
+If an interviewer asks only one question from Day 4, the most common is:
+
+"What is the difference between font-style and font-weight?"
+
+Answer:
+
+👉 font-style makes text italic, while font-weight controls how bold or thin the text appears.
+

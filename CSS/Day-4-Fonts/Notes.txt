@@ -1,0 +1,110 @@
+🔹 1. font-family
+Definition
+
+The font-family property is used to change the font style of text.
+
+Example
+body{
+    font-family: Arial, sans-serif;
+}
+
+Common Fonts
+
+Arial
+Verdana
+Tahoma
+Times New Roman
+Georgia
+Interview Answer
+
+"The font-family property is used to specify the font of text."
+
+🔹 2. font-size
+Definition
+
+The font-size property is used to change the size of text.
+
+Example
+h1{
+    font-size: 36px;
+}
+Interview Answer
+
+"The font-size property is used to control the size of text."
+
+🔹 3. font-weight
+Definition
+
+The font-weight property is used to make text bold or lighter.
+
+Values
+normal
+bold
+100
+200
+300
+400
+500
+600
+700
+800
+900
+Example
+h1{
+    font-weight: bold;
+}
+Interview Answer
+
+"The font-weight property controls the thickness of text."
+
+🔹 4. font-style
+Definition
+
+The font-style property is used to make text italic.
+
+Values
+normal
+italic
+Example
+p{
+    font-style: italic;
+}
+Interview Answer
+
+"The font-style property is used to make text italic or normal."
+
+🧠 Memory Trick
+font-family → Font type
+font-size   → Text size
+font-weight → Boldness
+font-style  → Italic
+
+
+Interview Questions
+
+1.What is font-family?
+
+👉 The font-family property is used to specify the font of text.
+
+2.What is font-size?
+
+👉 The font-size property is used to change the size of text.
+
+3.What is font-weight?
+
+👉 The font-weight property controls the thickness of text.
+
+4.What is font-style?
+
+👉 The font-style property is used to make text italic or normal.
+
+5.Which font-family is commonly used?
+
+👉 Arial, Verdana, Tahoma, Georgia, and Times New Roman.
+
+6.What is the difference between font-style and font-weight?
+
+👉 font-style makes text italic, while font-weight controls how bold or thin the text appears.
+
+
+
