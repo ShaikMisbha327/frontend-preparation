@@ -1,0 +1,401 @@
+🎤 Interview Questions
+What is the CSS Box Model?
+
+👉 The CSS Box Model consists of content, padding, border, and margin.
+
+What is width?
+
+👉 Width defines the horizontal size of an element.
+
+What is height?
+
+👉 Height defines the vertical size of an element.
+
+What is border?
+
+👉 Border creates a boundary around an element.
+
+What is padding?
+
+👉 Padding is the space between content and border.
+
+What is margin?
+
+👉 Margin is the space outside the border.
+
+Difference Between Margin and Padding?
+
+👉 Padding is inside the border.
+
+👉 Margin is outside the border.
+
+
+
+
+
+
+Day 5 (CSS Box Model)
+
+1.What is the CSS Box Model?
+
+
+The CSS Box Model is a layout concept that describes how elements occupy space on a webpage. It consists of:
+
+
+1.Content
+2.Padding
+3.Border
+4.Margin
+
+(or)
+
+"The CSS Box Model is a layout model that defines how much space an element occupies on a webpage. Every element is treated as a rectangular box consisting of content, padding, border, and margin."
+
+the Box Model.
+
++-------------------+
+|      Margin       |
+| +---------------+ |
+| |    Border     | |
+| | +-----------+ | |
+| | | Padding   | | |
+| | | +-------+ | | |
+| | | |Content| | | |
+| | | +-------+ | | |
+| | +-----------+ | |
+| +---------------+ |
++-------------------+
+
+Content is the actual text, image, or information inside an element.
+
+Padding is the space between the content and the border.
+
+Border creates a boundary around an element.
+
+Margin is the space outside the border used to separate elements.
+
+
+
+
+
+Question 2: Difference Between Margin and Padding?
+
+Padding is the space inside the border, while margin is the space outside the border.
+
+Padding increases the size of the element and shows the background color.
+
+Margin creates space between elements and does not show the background color.
+
+Padding = Space inside the border
+
+Margin = Space outside the border
+
+
+Example:
+
+.card{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+* Padding creates space between content and border.
+* Margin creates space between elements.
+
+
+Interview Trick
+
+Interviewer:
+
+"Which one creates space between two cards?"
+
+Answer:
+
+Margin
+
+
+3.Does Background Color Apply to Margin?
+
+No.
+
+Background color applies to:
+
+Content
+Padding
+
+
+and is visible behind the border area.
+
+Margin remains transparent.
+
+
+.card{
+    background-color: yellow;
+    margin: 20px;
+}
+
+4.What happens if width = 300px and padding = 20px?
+
+.card{
+    width: 300px;
+    padding: 20px;
+}
+
+Many beginners say:
+
+
+Total Width = 300px
+
+
+❌ Wrong.
+
+Default CSS behavior:
+
+300 + 20 + 20 = 340px
+
+
+Total width becomes **340px** (content + left padding + right padding).
+
+Explanation
+
+Content width = 300px
+
+Left padding = 20px
+
+Right padding = 20px
+
+Total width = 340px
+
+6.Calculate Width With Border
+
+.card{
+    width:300px;
+    padding:20px;
+    border:5px solid black;
+}
+
+Answer
+
+300 + 40 + 10
+= 350px
+Why?
+Padding Left = 20
+Padding Right = 20
+
+Border Left = 5
+Border Right = 5
+
+6.What is `box-sizing: border-box`?
+
+This is a favorite interview question.
+
+    box-sizing: border-box;
+    or
+    box-sizing: content-box;
+
+
+Answer
+
+"box-sizing controls how width and height are calculated."
+
+
+With `border-box`, width and height include:
+
+
+Content
+Padding
+Border
+
+
+inside the specified width.
+
+Without it:
+
+width = content only
+
+
+---
+7.Which is bigger?
+
+.card{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+
+Without `border-box`:
+
+300 + 40 + 10 = 350px
+
+Actual width = **350px**
+
+Many candidates incorrectly answer 300px.
+
+7.Can Margin Be Negative?
+
+margin: -20px;
+
+✅ Yes.
+
+Negative margins are valid in CSS.
+
+They pull elements closer or make them overlap.
+
+
+8.Which takes more space?
+
+
+.card{
+    width: 300px;
+}
+
+
+vs
+
+
+.card{
+    width: 300px;
+    padding: 20px;
+}
+
+
+Second one takes more space because padding increases the total size.
+
+
+9.Why Do Developers Use border-box?
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+**Answer:**
+
+To:
+
+* Remove browser default spacing
+* Make layouts predictable
+* Avoid width calculation issues
+
+9.What Happens If Width Is Not Given?
+
+div{
+    border:1px solid black;
+}
+Answer
+
+Block elements like div usually take the full available width of their parent.
+
+10.Does Padding Affect Element Size?
+
+Yes.
+
+Example
+.card{
+    width:300px;
+    padding:20px;
+}
+
+Actual width becomes:
+
+340px
+
+unless border-box is used.
+
+Question 11: Which Is Better?
+
+Code A
+width:300px;
+padding:20px;
+
+Code B
+width:300px;
+padding:20px;
+box-sizing:border-box;
+Answer
+
+Code B.
+
+Because width remains predictable.
+
+Question 12: What Is the Default Value of box-sizing?
+
+Answer
+content-box
+
+
+13.
+
+.card{
+    width:200px;
+    padding:10px;
+    border:5px solid black;
+}
+
+Without box-sizing:border-box
+
+What is actual width?
+
+Think:
+
+Width = 200
+
+Padding = 10 + 10 = 20
+
+Border = 5 + 5 = 10
+
+Total = 230px
+
+✅ Correct Answer
+
+Q14.
+.card{
+    width:200px;
+    padding:10px;
+    border:5px solid black;
+    box-sizing:border-box;
+}
+
+Actual Width?
+
+Answer
+200px
+
+15.⭐ HR + Technical Combination Question
+
+Interviewer:
+
+"You have a card layout breaking because padding is increasing width. How would you fix it?"
+
+Strong Answer
+
+"I would use box-sizing: border-box; so padding and border are included inside the specified width, preventing the layout from breaking."
+
+16. Why do we use this CSS reset?
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+This reset removes browser default spacing and makes layouts more consistent across different browsers.
+
+
+⭐ Day 5 Revision Formula
+Content = Actual Data
+
+Padding = Space Inside
+
+Border = Boundary
+
+Margin = Space Outside
+
+Content → Padding → Border → Margin
+
+Default box-sizing = content-box
+
+Recommended box-sizing = border-box

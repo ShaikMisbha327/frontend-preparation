@@ -1,0 +1,66 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* .card{
+    width:400px;
+    height:200px;
+   
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #fff;
+    text-align: center;
+
+} */
+.card{
+    width: 400px;
+    height: 200px;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+
+    margin: 50px auto;
+    background-color: white;
+
+    display: flex;
+    /* flex-direction: column;    Places h2 and p one below the other. */
+    justify-content: center; /* Centers content vertically */
+    align-items: center;  /* Centers content horizontally */
+
+    text-align: center;
+}
+
+.card h2{
+    margin-top: 0;
+    text-align: center;
+    color: #b2438d;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card p{
+    color: #0f0f0f;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* error card */
+.error{
+    background-color: white;
+    border: 2px solid #333;
+    
+}
+
+/* solution card */
+.solution{
+    background-color: white;
+    border: 2px solid #333;
+}
+
+/* test card */
+.test{
+    background-color: #f8f9fa;
+    border: 2px solid #333;
+}

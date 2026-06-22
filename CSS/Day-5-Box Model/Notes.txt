@@ -1,0 +1,128 @@
+🧠 What is the CSS Box Model?
+
+The CSS Box Model consists of:
+
++---------------------+
+|      Margin         |
+|  +---------------+  |
+|  |    Border     |  |
+|  | +-----------+ |  |
+|  | | Padding   | |  |
+|  | | Content   | |  |
+|  | +-----------+ |  |
+|  +---------------+  |
++---------------------+
+Components
+
+1.Content
+2.Padding
+3.Border
+4.Margin
+
+🔹 1. width
+Definition
+
+The width property is used to set the width of an element.
+
+Example
+.card{
+    width: 500px;
+}
+Interview Answer
+
+"The width property is used to define the horizontal size of an element."
+
+🔹 2. height
+Definition
+
+The height property is used to set the height of an element.
+
+Example
+.card{
+    height: 200px;
+}
+Interview Answer
+
+"The height property is used to define the vertical size of an element."
+
+🔹 3. border
+Definition
+
+The border property adds a border around an element.
+
+Example
+.card{
+    border: 2px solid black;
+}
+Breakdown
+2px      /* thickness */
+solid    /* style */
+black    /* color */
+
+Interview Answer
+
+"The border property is used to create a border around an element."
+
+🔹 4. padding
+Definition
+
+Padding creates space inside the border.
+
+Example
+.card{
+    padding: 20px;
+}
+
+
+Visual
+
+
+Border
+  ↓
++----------------+
+|   Padding      |
+|   Content      |
++----------------+
+
+Interview Answer
+
+"Padding is the space between the content and the border."
+
+🔹 5. margin
+Definition
+
+Margin creates space outside the border.
+
+Example
+.card{
+    margin: 20px;
+}
+
+Visual
+
+Margin
+
++------------+
+| Border     |
+| Content    |
++------------+
+
+Margin
+
+Interview Answer
+
+"Margin is the space outside an element's border."
+
+🔥 MOST IMPORTANT INTERVIEW QUESTION
+
+Difference Between Margin and Padding
+Padding
+Space INSIDE border
+Margin
+Space OUTSIDE border
+
+Easy Memory Trick
+
+Padding = Pushes content inward
+
+Margin = Pushes elements outward
