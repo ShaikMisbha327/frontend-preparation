@@ -1,0 +1,26 @@
+1.What is the display property?
+
+Answer: The display property controls how an HTML element is displayed and behaves in the layout.
+
+2.What is a block element?
+
+Answer: A block element starts on a new line and takes the full available width.
+
+3.What is an inline element?
+
+Answer: An inline element stays on the same line, takes only the required width, and does not accept width and height.
+
+4.What is inline-block?
+
+Answer: inline-block keeps elements on the same line while allowing width and height to be set.
+
+5.What is display: none?
+
+Answer: display: none completely hides an element and removes it from the page layout.
+
+
+6.What is the difference between display: none and visibility: hidden?
+
+
+display: none → The element is removed from the layout and occupies no space.
+visibility: hidden → The element is hidden, but it still occupies its original space

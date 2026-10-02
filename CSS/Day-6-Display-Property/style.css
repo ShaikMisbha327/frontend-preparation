@@ -1,0 +1,53 @@
+/*Reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f4f4f4;
+}
+.hero{
+    background-color: #6a0dad;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+.about,
+.skills
+.experience{
+    display:block;
+    width:80%;
+    max-width: 800px;
+    margin:30px auto;
+    padding:25px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+    color:#6a0dad;
+}
+.skill{
+    display:inline-block;
+    background:#0077b6;
+    color:white;
+    padding:10px 18px;
+    margin:8px;
+    border-radius:30px;
+    font-weight:bold;
+}
+.hidden{
+    display:none;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
