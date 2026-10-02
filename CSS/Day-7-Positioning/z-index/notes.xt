@@ -1,0 +1,50 @@
+– Z-INDEX
+
+Definition:
+
+z-index is a CSS property that decides which element appears in front when two or more elements overlap.
+
+Syntax:
+
+selector {
+position: value;
+z-index: number;
+}
+
+Example:
+
+.box1 {
+position: absolute;
+z-index: 1;
+}
+
+.box2 {
+position: absolute;
+z-index: 2;
+}
+
+Here, Box 2 appears in front of Box 1 because its z-index is higher.
+
+Important:
+
+Higher z-index = appears in front
+
+Lower z-index = appears behind
+
+Real-world example:
+
+Imagine two cards placed on top of each other.
+The card with a higher z-index will appear above the other card.
+
+Common values:
+
+z-index: 1;
+z-index: 2;
+z-index: 10;
+z-index: 100;
+
+Memory:
+
+z-index = front / back
+Higher number = front
+Lower number = back

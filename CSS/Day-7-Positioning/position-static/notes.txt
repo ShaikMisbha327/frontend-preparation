@@ -1,0 +1,35 @@
+CSS DAY 7 – POSITION: STATIC
+
+Definition:
+
+Static is the default position of an element.
+The element stays in its normal position.
+
+Syntax:
+
+selector {
+    position: static;
+}
+
+Example:
+
+.box {
+    position: static;
+}
+
+Here, the box stays in its normal position.
+
+Important:
+
+1. Static is the default position.
+2. The element follows the normal flow of the webpage.
+3. top, right, bottom and left do not work with static positioning.
+
+Real-world example:
+
+A normal paragraph or heading that stays in its usual position
+on the webpage.
+
+Memory:
+
+static = normal / default

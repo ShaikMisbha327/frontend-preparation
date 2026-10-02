@@ -1,0 +1,497 @@
+CSS DAY 7 – POSITIONING
+
+The position property is used to control the position of an HTML element on a webpage.
+
+It helps us place elements exactly where we want them.
+
+Syntax
+
+selector{
+    position: value;
+}
+
+
+1. What is the Position Property?
+
+Definition:-
+
+The position property specifies how an HTML element is positioned on a webpage.
+
+It is used to control the placement of elements.
+
+Syntax
+
+position: value;
+
+Example
+
+.box{
+    position: relative;
+}
+
+
+Interview Answer
+
+The position property controls how an HTML element is positioned on a webpage.
+
+
+2. Types of Position Property
+
+1. static
+2. relative
+3. absolute
+4. fixed
+5. sticky
+
+
+3. position: static
+
+Definition:-
+
+Static is the default position of an HTML element.
+
+The element follows the normal flow of the webpage.
+
+Example
+
+.box{
+    position: static;
+}
+
+Important Points
+
+1. It is the default position.
+2. The element follows the normal document flow.
+3. top, right, bottom and left do not work with static positioning.
+
+Interview Answer
+
+Static is the default position of an HTML element and it follows the normal document flow.
+
+
+4. position: relative
+
+Definition:-
+
+Relative positioning moves an element from its original position.
+
+The element still keeps its original space in the webpage.
+
+We can use:
+
+top
+right
+bottom
+left
+
+Example
+
+.box{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+The box moves:
+
+20px down
+30px right
+
+Important Points
+
+1. The element remains in the normal flow.
+2. Its original space is maintained.
+3. top, right, bottom and left can be used.
+4. It is commonly used as a parent for an absolutely positioned child.
+
+Interview Answer
+
+Relative positioning moves an element from its original position while keeping its original space in the layout.
+
+
+5. position: absolute
+
+Definition:-
+
+Absolute positioning removes an element from the normal document flow.
+
+The element is positioned relative to its nearest positioned ancestor.
+
+Example
+
+HTML
+
+<div class="card">
+    <span class="badge">New</span>
+</div>
+
+CSS
+
+.card{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+Important Points
+
+1. The element is removed from the normal document flow.
+2. It can be positioned using top, right, bottom and left.
+3. It is positioned relative to its nearest positioned ancestor.
+4. If there is no positioned ancestor, it is generally positioned relative to the initial containing block.
+
+Interview Answer
+
+Absolute positioning removes an element from the normal flow and positions it relative to its nearest positioned ancestor.
+
+
+6. Parent Relative + Child Absolute
+
+This is one of the most important patterns in CSS.
+
+Example
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+The parent becomes the reference point for the absolute child.
+
+Real-world examples:
+
+1. Notification badges
+2. Icons inside input boxes
+3. Labels on images
+4. Card badges
+5. Overlay text
+6. Close buttons
+
+
+Interview Answer
+
+We commonly use position: relative on the parent so that an absolutely positioned child can be positioned relative to that parent.
+
+
+7. position: fixed
+
+Definition:-
+
+Fixed positioning keeps an element fixed relative to the browser viewport.
+
+The element stays in the same position even when the page is scrolled.
+
+Example
+
+.button{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+Common Uses
+
+1. Chat buttons
+2. Floating buttons
+3. Back-to-top buttons
+4. Fixed navigation
+5. Floating action buttons
+
+Interview Answer
+
+Fixed positioning keeps an element fixed relative to the viewport even when the page is scrolled.
+
+
+8. position: sticky
+
+Definition:-
+
+Sticky positioning behaves like a normal element until a specified scroll position is reached.
+
+After reaching that position, the element sticks there.
+
+Example
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+Important Points
+
+1. It behaves normally at first.
+2. It sticks when the specified position is reached.
+3. top, right, bottom or left is normally used with sticky.
+4. It is useful for navigation bars and headings.
+
+Common Uses
+
+1. Navigation bars
+2. Table headers
+3. Sidebars
+4. Section headings
+
+Interview Answer
+
+Sticky positioning allows an element to behave normally until a specified scroll position is reached, after which it sticks to that position.
+
+
+9. top Property
+
+The top property positions an element from the top.
+
+Example
+
+.box{
+    position: relative;
+    top: 20px;
+}
+
+The element moves 20px downward from its original position.
+
+
+10. right Property
+
+The right property positions an element from the right side.
+
+Example
+
+.box{
+    position: absolute;
+    right: 20px;
+}
+
+The element moves 20px away from the right side.
+
+
+11. bottom Property
+
+The bottom property positions an element from the bottom.
+
+Example
+
+.box{
+    position: fixed;
+    bottom: 20px;
+}
+
+The element is positioned 20px above the bottom.
+
+
+12. left Property
+
+The left property positions an element from the left side.
+
+Example
+
+.box{
+    position: relative;
+    left: 30px;
+}
+
+The element moves 30px to the right.
+
+
+13. z-index
+
+Definition:-
+
+The z-index property controls the stacking order of overlapping elements.
+
+Example
+
+.box-one{
+    position: absolute;
+    z-index: 1;
+}
+
+.box-two{
+    position: absolute;
+    z-index: 2;
+}
+
+Box 2 appears in front of Box 1.
+
+Important Point
+
+A higher z-index generally appears in front of a lower z-index when the elements are in the same stacking context.
+
+Interview Answer
+
+z-index controls the stacking order of overlapping elements.
+
+
+14. Difference Between Static and Relative
+
+Static
+
+1. Default position.
+2. Follows normal document flow.
+3. top, right, bottom and left do not work.
+
+Relative
+
+1. Element can be moved from its original position.
+2. Original space is maintained.
+3. top, right, bottom and left can be used.
+
+
+15. Difference Between Relative and Absolute
+
+Relative
+
+1. Element remains in normal flow.
+2. Original space is maintained.
+3. Moves relative to its original position.
+
+Absolute
+
+1. Element is removed from normal flow.
+2. Original space is not maintained.
+3. Positioned relative to its nearest positioned ancestor.
+
+
+16. Difference Between Fixed and Sticky
+
+Fixed
+
+1. Fixed to the viewport.
+2. Stays in the same position while scrolling.
+3. Does not behave like a normal element in the document flow.
+
+Sticky
+
+1. Behaves normally at first.
+2. Sticks after reaching a specified position.
+3. Used commonly for navigation and headings.
+
+
+17. Easy Way to Remember
+
+static
+
+↓
+Default / Normal
+
+
+relative
+
+↓
+Move from original position
+
+
+absolute
+
+↓
+Position inside a positioned parent
+
+
+fixed
+
+↓
+Fixed to the screen
+
+
+sticky
+
+↓
+Scroll → Then stick
+
+
+18. Positioning Examples
+
+Relative
+
+.box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+Absolute
+
+.box{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+Fixed
+
+.box{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+Sticky
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+
+Z-index
+
+.box{
+    position: absolute;
+    z-index: 10;
+}
+
+
+19. Real-World Uses
+
+Relative
+
+Used when we need to move an element slightly or create a reference point for an absolute child.
+
+Absolute
+
+Used for badges, icons, overlays and elements inside cards.
+
+Fixed
+
+Used for chat buttons, floating buttons and fixed navigation.
+
+Sticky
+
+Used for sticky navigation bars, table headers and sidebars.
+
+
+20. Important Interview Points
+
+1. static is the default position.
+2. Relative keeps the original space.
+3. Absolute removes the element from normal flow.
+4. Fixed is positioned relative to the viewport.
+5. Sticky behaves normally first and then sticks.
+6. top, right, bottom and left are used with positioned elements.
+7. z-index controls the stacking order.
+8. Parent relative + child absolute is a very common CSS pattern.
+
+
+
+STATIC   → DEFAULT
+
+RELATIVE → ORIGINAL POSITION + MOVE
+
+ABSOLUTE → REMOVE FROM FLOW + POSITION
+
+FIXED    → FIXED TO SCREEN
+
+STICKY   → NORMAL → SCROLL → STICK
+
+Z-INDEX  → FRONT / BACK

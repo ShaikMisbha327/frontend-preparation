@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} 
+.navbar a{
+    margin:0 30px;
+    color:white;
+    cursor:pointer;
+}
+.content {
+    padding: 30px;
+    line-height: 2;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+
+
+/* 2. What does margin: 0 15px mean?
+margin: 0 15px;
+
+When we give 2 values, CSS understands them as:
+
+margin: TOP & BOTTOM    LEFT & RIGHT
+              ↓              ↓
+          0px             15px
+
+So:
+
+margin: 0 15px;
+
+means:
+
+Top = 0px
+Bottom = 0px
+Left = 15px
+Right = 15px
+
+All 4 margins
+
+You can also write them separately:
+
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+
+Or using shorthand:
+
+margin: 10px 20px 30px 40px;
+
+The order is always:
+
+        TOP
+         ↓
+LEFT ←       → RIGHT
+         ↑
+      BOTTOM
+
+⭐ Easy formula:
+1 value:
+margin: 10px;
+→ all 4 sides = 10px
+
+2 values:
+margin: 10px 20px;
+→ top/bottom = 10px
+→ left/right = 20px
+
+3 values:
+margin: 10px 20px 30px;
+→ top = 10px
+→ left/right = 20px
+→ bottom = 30px
+
+4 values:
+margin: 10px 20px 30px 40px;
+→ top = 10px
+→ right = 20px
+→ bottom = 30px
+→ left = 40px
+
+Memory trick for 4 values:
+👉 Top → Right → Bottom → Left (clockwise 🔄) */

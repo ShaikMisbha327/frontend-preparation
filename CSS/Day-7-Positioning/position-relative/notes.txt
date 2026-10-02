@@ -1,0 +1,54 @@
+POSITION: RELATIVE
+
+Definition:
+
+position: relative allows an element to move from its original position.
+
+Syntax:
+
+selector {
+    position: relative;
+    top: value;
+    left: value;
+    right: value;
+    bottom: value;
+}
+
+Example:
+
+.box {
+    position: relative;
+    left: 50px;
+}
+
+Here, the box moves 50px to the right from its original position.
+
+Important:
+
+top → moves the element down
+
+left → moves the element right
+
+right → moves the element left
+
+bottom → moves the element up
+
+Real-world example:
+
+Imagine a box on a table.
+If you move the box slightly from its original place, it is like relative positioning.
+
+Common values:
+
+top: 20px;
+left: 50px;
+right: 20px;
+bottom: 20px;
+
+Memory:
+
+relative = move from original position
+left = right
+right = left
+top = down
+bottom = up

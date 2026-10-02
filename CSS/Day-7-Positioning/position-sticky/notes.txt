@@ -1,0 +1,46 @@
+4.position: sticky
+
+
+Definition: sticky means :
+"" The element moves normally at first,but when you scroll to it,it sticks to the top""
+
+
+🌍 Real-World Example
+
+Think about a website navigation bar:
+
+
+Before scrolling:
+
+┌──────────────────────────┐
+│       My Website         │
+├──────────────────────────┤
+│ Home | About | Skills    │ ← Navbar
+├──────────────────────────┤
+│                          │
+│       Page Content       │
+│                          │
+└──────────────────────────┘
+
+When you scroll down:
+
+┌──────────────────────────┐
+│ Home | About | Skills    │ ← STICKS HERE
+├──────────────────────────┤
+│                          │
+│       New Content        │
+│                          │
+│       More Content       │
+└──────────────────────────┘
+
+
+sticky = normal first → scroll → stick
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+top:0 means:
+stick to the top of the screen

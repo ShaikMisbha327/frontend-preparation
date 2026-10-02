@@ -1,0 +1,138 @@
+1. What is the position property?
+
+Answer: The position property controls how an element is positioned
+on a webpage.
+
+
+2. What is position: static?
+
+Answer: Static is the default position of an HTML element and it
+follows the normal document flow.
+
+
+3. What is position: relative?
+
+Answer: Relative positioning moves an element from its original
+position while keeping its original space in the layout.
+
+
+4. What is position: absolute?
+
+Answer: Absolute positioning removes an element from the normal flow
+and positions it relative to its nearest positioned ancestor.
+
+
+5. What is position: fixed?
+
+Answer: Fixed positioning keeps an element fixed relative to the
+browser viewport even when the page is scrolled.
+
+
+6. What is position: sticky?
+
+Answer: Sticky positioning allows an element to behave normally until
+a specified scroll position is reached, after which it sticks there.
+
+
+7. What is the difference between relative and absolute?
+
+relative → The element keeps its original space.
+absolute → The element is removed from the normal document flow.
+
+
+8. What is the difference between fixed and sticky?
+
+fixed → The element is fixed to the viewport.
+
+sticky → The element behaves normally first and sticks when a scroll
+position is reached.
+
+
+9. What are top, right, bottom and left?
+
+Answer: These properties are used to position an element after
+applying a positioning value such as relative, absolute, fixed or
+sticky.
+
+
+10. What is z-index?
+
+Answer: z-index controls the stacking order of overlapping elements.
+
+
+11. Which position is the default position?
+
+Answer: static.
+
+
+12. Does top, left, right and bottom work with static?
+
+Answer: No. They do not work for a statically positioned element.
+
+
+13. Why do we use position: relative on a parent?
+
+Answer: We commonly use position: relative on a parent so that an
+absolutely positioned child can be positioned relative to that
+parent.
+
+
+14. What is the most common combination of relative and absolute?
+
+Answer:
+
+.parent{
+    position:relative;
+}
+
+.child{
+    position:absolute;
+}
+
+
+15. Does fixed positioning stay in the same place when scrolling?
+
+Answer: Yes. A fixed element stays attached to the viewport.
+
+
+16. Give some real-world uses of absolute positioning.
+
+Answer:
+
+1. Badges
+2. Icons
+3. Overlays
+4. Labels
+5. Dropdown elements
+
+
+17. Give some real-world uses of fixed positioning.
+
+Answer:
+
+1. Chat buttons
+2. Floating buttons
+3. Back-to-top buttons
+4. Fixed navigation
+
+
+18. Give some real-world uses of sticky positioning.
+
+Answer:
+
+1. Navigation bars
+2. Table headers
+3. Sidebars
+4. Section headings
+
+
+19. Which property controls overlapping elements?
+
+Answer: z-index.
+
+
+20. What happens when two elements overlap and one has a higher
+z-index?
+
+Answer: The element with the higher z-index generally appears in
+front when they are in the same stacking context.
