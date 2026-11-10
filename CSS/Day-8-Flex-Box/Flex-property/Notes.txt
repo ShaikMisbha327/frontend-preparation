@@ -1,0 +1,27 @@
+Flex-property:
+
+Definition:The flex property controls how flex items grows,shrinks,and takes available space inside a flex container.
+or:
+The flex property controls the size and growth of a flex item inside a flex container.
+
+Syntax:
+
+.item{
+    flex:1;
+}
+
+example:
+.container{
+    display:flex;
+}
+.item{
+    flex:1;
+}
+
+when multiple flex items have flex:1; they can share the avialble spce equality.
+
+Example:
+
+.item{
+    flex:1;
+}

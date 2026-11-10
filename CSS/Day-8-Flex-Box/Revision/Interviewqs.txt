@@ -1,0 +1,265 @@
+DAY 8 - CSS FLEXBOX INTERVIEW QUESTIONS
+
+==================================================
+1. What is Flexbox?
+==================================================
+
+Definition:
+
+Flexbox is a CSS layout system used to arrange elements in a row or column and control their alignment, spacing, and direction.
+
+--------------------------------------------------
+
+2. What is a Flex Container?
+--------------------------------------------------
+
+Definition:
+
+A flex container is an element on which display: flex is applied.
+
+Example:
+
+.container {
+    display: flex;
+}
+
+--------------------------------------------------
+
+3. What are Flex Items?
+--------------------------------------------------
+
+Definition:
+
+Flex items are the direct child elements of a flex container.
+
+Example:
+
+<div class="container">
+    <div>HTML</div>
+    <div>CSS</div>
+</div>
+
+Here, .container is the flex container and the two divs are flex items.
+
+--------------------------------------------------
+
+4. What is display: flex?
+--------------------------------------------------
+
+Definition:
+
+Definition:Display-flex converts an element into a flex container.The direct children of the fle container becomes flex items.
+
+Syntax:
+
+.container {
+    display: flex;
+}
+
+--------------------------------------------------
+
+5. What is justify-content?
+--------------------------------------------------
+
+Definition:
+
+Justify-content controls the alignment of flex items along the main axis.
+
+Syntax:
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+Common values:
+
+flex-start
+center
+flex-end
+space-between
+space-around
+space-evenly
+
+--------------------------------------------------
+
+6. What is align-items?
+--------------------------------------------------
+
+Definition:
+
+Align-item controls the alignmen of flex items along the cross axis.
+
+Syntax:
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+Common values:
+
+stretch
+flex-start
+center
+flex-end
+
+--------------------------------------------------
+
+7. Difference between justify-content and align-items?
+--------------------------------------------------
+
+Definition:
+
+justify-content controls alignment along the main axis.
+
+align-items controls alignment along the cross axis.
+
+For flex-direction: row:
+
+justify-content → horizontal
+align-items → vertical
+
+--------------------------------------------------
+
+8. What is flex-direction?
+--------------------------------------------------
+
+Definition:
+
+Flex-direction defines the direction in which flex items are arranged.
+
+Syntax:
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+Values:
+
+row
+row-reverse
+column
+column-reverse
+
+--------------------------------------------------
+
+9. What is gap in Flexbox?
+--------------------------------------------------
+
+Definition:
+
+gap creates space between flex items.
+
+Syntax:
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+--------------------------------------------------
+
+10. What is flex-wrap?
+--------------------------------------------------
+
+Definition:
+
+Flex-wrap controls whether flex iems should stay on one line or move to another line when there is not enough space.
+
+Syntax:
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+Values:
+
+nowrap
+wrap
+wrap-reverse
+
+--------------------------------------------------
+
+11. What is the flex property?
+--------------------------------------------------
+
+Definition:
+
+The flex property controls the size and growth of a flex item inside a flex container.
+or:
+The flex property controls how flex items grows,shrinks,and takes available space inside a flex container.
+
+
+Example:
+
+.item {
+    flex: 1;
+}
+
+--------------------------------------------------
+
+12. What is the main axis?
+--------------------------------------------------
+
+Definition:
+
+The main axis is the primary direction in which flex items are arranged.
+
+For flex-direction: row:
+
+Main axis → horizontal
+
+For flex-direction: column:
+
+Main axis → vertical
+
+--------------------------------------------------
+
+13. What is the cross axis?
+--------------------------------------------------
+
+Definition:
+
+The cross axis is perpendicular to the main axis.
+
+For flex-direction: row:
+
+Cross axis → vertical
+
+For flex-direction: column:
+
+Cross axis → horizontal
+
+--------------------------------------------------
+
+14. How do you center an element horizontally and vertically using Flexbox?
+--------------------------------------------------
+
+Answer:
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+--------------------------------------------------
+
+15. What is the default flex-direction?
+--------------------------------------------------
+
+Answer:
+
+The default value of flex-direction is row.
+
+--------------------------------------------------
+
+16. What is the default value of flex-wrap?
+--------------------------------------------------
+
+Answer:
+
+The default value of flex-wrap is nowrap.

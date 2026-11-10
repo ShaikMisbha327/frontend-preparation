@@ -1,0 +1,14 @@
+.container{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    width: 500px;
+    border: 2px solid black;
+}
+.item{
+    padding:30px;
+    margin:10px;
+    background-color:lightblue;
+    border: 2px solid black;
+    
+}

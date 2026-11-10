@@ -1,0 +1,25 @@
+Justify-Content:
+
+Definition:Justify-content controls the alignment of flex items along the main axis.
+
+Syntax:
+
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+Common values:
+
+flex-start
+center
+flex-end
+space-between
+space-around
+space-evenly
+
+Important:
+
+For flex-direction:row,the main axis is horizontal.
+
+Therefore,Justify-content controls horizontal alignment.

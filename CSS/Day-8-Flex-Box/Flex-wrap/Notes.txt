@@ -1,0 +1,21 @@
+Fle-wrap:
+
+Definition:Flex-wrap controls whether flex iems should stay on one line or move to another line when there is not enough space.
+
+Syntax:
+.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+values:
+
+nowrap
+wrap
+wrap-reverse
+
+Default-values:
+
+nowrap
+wrap:
+Items move to the next line when required.

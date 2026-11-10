@@ -1,0 +1,18 @@
+DAY 8 - CSS FLEXBOX
+
+1. display: flex
+2. justify-content
+3. align-items
+4. flex-direction
+5. gap
+6. flex-wrap
+7. flex property
+
+Important Concepts:
+
+- Flex Container
+- Flex Items
+- Main Axis
+- Cross Axis
+- Row
+- Column

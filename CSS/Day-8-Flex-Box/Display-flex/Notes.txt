@@ -1,0 +1,27 @@
+Display-Flex:
+
+Definition:Display-flex converts an element into a flex container.The direct children of the fle container becomes flex items.
+
+Syntax:
+.container {
+    display:flex;
+}
+
+Example:
+
+<div class="container">
+<div>HTML</div>
+<div>CSS</div>
+<div>Javascript</div>
+</div>
+
+.container{
+    display:flex;
+}
+By default,flex items are arranged in a row.
+
+Important:
+Parent -> flex container
+Direct Children -> Flex Items
+Default flex-direcion:
+row

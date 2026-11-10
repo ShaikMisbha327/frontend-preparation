@@ -1,0 +1,167 @@
+This is one of the most important Flexbox concepts, so let's understand it very simply.
+
+🔥 Main Axis & Cross Axis in Flexbox
+
+Every Flexbox layout has two axes:
+
+Main Axis → the primary direction in which flex items are arranged.
+Cross Axis → the direction perpendicular to the main axis.
+
+
+12. What is the main axis?
+--------------------------------------------------
+
+Definition:
+
+The main axis is the primary direction in which flex items are arranged.
+
+For flex-direction: row:
+
+Main axis → horizontal
+
+For flex-direction: column:
+
+Main axis → vertical
+
+--------------------------------------------------
+
+13. What is the cross axis?
+--------------------------------------------------
+
+Definition:
+
+The cross axis is perpendicular to the main axis.
+
+For flex-direction: row:
+
+Cross axis → vertical
+
+For flex-direction: column:
+
+Cross axis → horizontal
+
+--------------------------------------------------
+
+
+
+The direction of these axes depends on flex-direction.
+
+1. flex-direction: row
+
+This is the default direction.
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+The items are arranged horizontally:
+
+HTML     CSS     JavaScript
+────────────────────────────→
+          Main Axis
+
+So the horizontal direction is the Main Axis.
+
+The Cross Axis is vertical:
+
+             ↓
+             │
+             │ Cross Axis
+             │
+             ↑
+
+Therefore:
+
+Main Axis  → Horizontal
+Cross Axis → Vertical
+What controls each axis?
+justify-content → Main Axis → Horizontal
+align-items     → Cross Axis → Vertical
+
+For example:
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Here:
+
+justify-content: center → moves items to the horizontal center
+align-items: center → moves items to the vertical center
+
+2. flex-direction: column
+
+Now let's change:
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+The items are now arranged vertically:
+
+       Main Axis
+           ↓
+         HTML
+           ↓
+          CSS
+           ↓
+      JavaScript
+
+So now:
+
+Main Axis  → Vertical
+Cross Axis → Horizontal
+
+The axes have effectively changed direction.
+
+Therefore:
+
+justify-content → Main Axis → Vertical
+align-items     → Cross Axis → Horizontal
+⭐ This is the important part
+
+Many beginners memorize:
+
+justify-content = horizontal
+align-items = vertical
+
+❌ That's not always true.
+
+The correct rule is:
+
+justify-content controls the Main Axis.
+align-items controls the Cross Axis.
+
+And flex-direction determines which direction those axes point.
+
+Compare both
+flex-direction: row
+Main Axis → Horizontal
+Cross Axis → Vertical
+
+justify-content → Horizontal
+align-items     → Vertical
+
+flex-direction: column
+Main Axis → Vertical
+Cross Axis → Horizontal
+
+justify-content → Vertical
+align-items     → Horizontal
+🧠 Easy way to remember
+
+Think:
+
+justify-content → follows the direction of the flex items.
+
+align-items → works across that direction.
+
+So if items move left → right, justify-content works left/right.
+
+If items move top → bottom, justify-content works top/bottom.
+
+This concept is very important for interviews and real-world layouts.

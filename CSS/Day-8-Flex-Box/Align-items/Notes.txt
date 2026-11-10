@@ -1,0 +1,23 @@
+Align-items:
+
+Definition:Align-item controls the alignmen of flex items along the cross axis.
+
+Syntax:
+
+.container{
+    display:flex;
+    align-tems:center;
+}
+
+for the Flex-direction:row,
+Main-axis-horizontal
+Cross-axis-vertical
+
+Therefore,align-items controls vertical alignment.
+
+common values:
+
+stretch
+flex-start
+center
+flex-end

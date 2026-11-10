@@ -1,0 +1,20 @@
+Gap:
+
+Definition: The gap property creates space between flex space.
+
+Syntax:
+
+.container{
+    display:flex;
+    gap:20px;
+
+}
+
+The gap property is useful for creating consistent spacing between flex items.
+
+Example:
+
+.container{
+    display:flex;
+    gap:30px;
+}

@@ -1,0 +1,30 @@
+Flex-direction:
+
+Definition:Flex-direction defines the direction in which flex items are arranged.
+
+Syntax:
+
+.container{
+    display-flex;
+    flex-direction:row;
+}
+
+values:
+row
+row-reverse
+Column
+column-reverse
+
+row:
+
+HTML → CSS → JavaScript
+
+column:
+
+HTML
+CSS
+JavaScript
+
+Default value:
+
+row
